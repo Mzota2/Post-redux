@@ -1,0 +1,67 @@
+.posts-container{
+    margin-top: 2em;
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.post-container{
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    padding: 1em 1em;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.251);
+}
+
+.post-container:focus, 
+.post-container:hover{
+    cursor: pointer;
+    transform: scale(1.04);
+}
+
+.post-btns{
+    align-self: center;
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.post-btn{
+    display: inline-block;
+    padding: 0.3em 1em;
+}
+
+.edit-btn{
+    background-color: rgb(194, 155, 83);
+}
+
+.view-btn{
+    background-color: green;
+}
+
+.post-form{
+    margin-top:2em;
+    display: flex;
+    align-items: center;
+    gap: 2em;
+    flex-wrap: wrap;
+}
+
+.input-field{
+    width: clamp(150px, 50%, 300px );
+    border: none;
+    border-bottom: 1px solid green;
+    outline: none;
+}
+.hero-text-title{
+    text-align: center;
+}
+.post-form > button{
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    background-color: rgb(11,167,154);
+}
